@@ -4,7 +4,8 @@
 <h1> Contact by email </h1>
 
 
-<form>
+<form> 
+    method="post"
 <fieldset>
     <h2> Please select the topic you would like to contact us about. So, we can serve you better and faster </h2>
     <label for="question">Where is your question about?</label>
@@ -16,7 +17,7 @@
   
     <br>
   
-      <h2> Contact about  </h2>
+      <h3> Contact about  </h3>
        <label for="subject">Main subject?</label>
     <select id="subject" name="subject">    
             <option value="order_deliver">Ordering and delivery</option>
@@ -39,8 +40,10 @@
       
      
    <br>  
-    the notes can be up to 5000 characters.        
-     
+    The notes can be up to 5000 characters.        
+    <br> 
+     <input type="file" name="file">
+     <br>
   First name and last name*:<br>
   <input type="text" name="name">
   
